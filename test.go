@@ -33,8 +33,10 @@ func filterMap(dump string, filters []string) (taggedMetricMap, error) {
 	}
 	
 	fmap := make(map[string]interface{})
-	for filter := range filters {
-		fmap[filter] := data[filter]
+	for tag, metrics := range data {
+		for filter := range filters {
+			fmap[tag][filter] := metrics[filter]
+		}
 	}
 
 	return fmap, nil
