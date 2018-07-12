@@ -1,0 +1,3520 @@
+{
+    "AsyncMessenger::Worker-0": {
+        "msgr_recv_messages": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Network received messages",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_send_messages": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Network sent messages",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_recv_bytes": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Network received bytes",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_send_bytes": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Network sent bytes",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_created_connections": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Created connection number",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_active_connections": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Active connection number",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_running_total_time": {
+            "type": 1,
+            "metric_type": "gauge",
+            "value_type": "real",
+            "description": "The total time of thread running",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_running_send_time": {
+            "type": 1,
+            "metric_type": "gauge",
+            "value_type": "real",
+            "description": "The total time of message sending",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_running_recv_time": {
+            "type": 1,
+            "metric_type": "gauge",
+            "value_type": "real",
+            "description": "The total time of message receiving",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_running_fast_dispatch_time": {
+            "type": 1,
+            "metric_type": "gauge",
+            "value_type": "real",
+            "description": "The total time of fast dispatch",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "AsyncMessenger::Worker-1": {
+        "msgr_recv_messages": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Network received messages",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_send_messages": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Network sent messages",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_recv_bytes": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Network received bytes",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_send_bytes": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Network sent bytes",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_created_connections": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Created connection number",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_active_connections": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Active connection number",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_running_total_time": {
+            "type": 1,
+            "metric_type": "gauge",
+            "value_type": "real",
+            "description": "The total time of thread running",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_running_send_time": {
+            "type": 1,
+            "metric_type": "gauge",
+            "value_type": "real",
+            "description": "The total time of message sending",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_running_recv_time": {
+            "type": 1,
+            "metric_type": "gauge",
+            "value_type": "real",
+            "description": "The total time of message receiving",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_running_fast_dispatch_time": {
+            "type": 1,
+            "metric_type": "gauge",
+            "value_type": "real",
+            "description": "The total time of fast dispatch",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "AsyncMessenger::Worker-2": {
+        "msgr_recv_messages": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Network received messages",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_send_messages": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Network sent messages",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_recv_bytes": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Network received bytes",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_send_bytes": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Network sent bytes",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_created_connections": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Created connection number",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_active_connections": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Active connection number",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_running_total_time": {
+            "type": 1,
+            "metric_type": "gauge",
+            "value_type": "real",
+            "description": "The total time of thread running",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_running_send_time": {
+            "type": 1,
+            "metric_type": "gauge",
+            "value_type": "real",
+            "description": "The total time of message sending",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_running_recv_time": {
+            "type": 1,
+            "metric_type": "gauge",
+            "value_type": "real",
+            "description": "The total time of message receiving",
+            "nick": "",
+            "priority": 0
+        },
+        "msgr_running_fast_dispatch_time": {
+            "type": 1,
+            "metric_type": "gauge",
+            "value_type": "real",
+            "description": "The total time of fast dispatch",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "WBThrottle": {
+        "bytes_dirtied": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Dirty data",
+            "nick": "",
+            "priority": 0
+        },
+        "bytes_wb": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Written data",
+            "nick": "",
+            "priority": 0
+        },
+        "ios_dirtied": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Dirty operations",
+            "nick": "",
+            "priority": 0
+        },
+        "ios_wb": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Written operations",
+            "nick": "",
+            "priority": 0
+        },
+        "inodes_dirtied": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Entries waiting for write",
+            "nick": "",
+            "priority": 0
+        },
+        "inodes_wb": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Written entries",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "filestore": {
+        "journal_queue_ops": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Operations in journal queue",
+            "nick": "",
+            "priority": 0
+        },
+        "journal_queue_bytes": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Size of journal queue",
+            "nick": "",
+            "priority": 0
+        },
+        "journal_ops": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Active journal entries to be applied",
+            "nick": "",
+            "priority": 0
+        },
+        "journal_bytes": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Active journal operation size to be applied",
+            "nick": "",
+            "priority": 0
+        },
+        "journal_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average journal queue completing latency",
+            "nick": "",
+            "priority": 0
+        },
+        "journal_wr": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Journal write IOs",
+            "nick": "",
+            "priority": 0
+        },
+        "journal_wr_bytes": {
+            "type": 6,
+            "metric_type": "gauge",
+            "value_type": "integer-integer-pair",
+            "description": "Journal data written",
+            "nick": "",
+            "priority": 0
+        },
+        "journal_full": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Journal writes while full",
+            "nick": "",
+            "priority": 0
+        },
+        "committing": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Is currently committing",
+            "nick": "",
+            "priority": 0
+        },
+        "commitcycle": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Commit cycles",
+            "nick": "",
+            "priority": 0
+        },
+        "commitcycle_interval": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average interval between commits",
+            "nick": "",
+            "priority": 0
+        },
+        "commitcycle_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average latency of commit",
+            "nick": "",
+            "priority": 0
+        },
+        "op_queue_max_ops": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Max operations in writing to FS queue",
+            "nick": "",
+            "priority": 0
+        },
+        "op_queue_ops": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Operations in writing to FS queue",
+            "nick": "",
+            "priority": 0
+        },
+        "ops": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Operations written to store",
+            "nick": "",
+            "priority": 0
+        },
+        "op_queue_max_bytes": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Max data in writing to FS queue",
+            "nick": "",
+            "priority": 0
+        },
+        "op_queue_bytes": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Size of writing to FS queue",
+            "nick": "",
+            "priority": 0
+        },
+        "bytes": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Data written to store",
+            "nick": "",
+            "priority": 0
+        },
+        "apply_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Apply latency",
+            "nick": "",
+            "priority": 0
+        },
+        "queue_transaction_latency_avg": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Store operation queue latency",
+            "nick": "",
+            "priority": 0
+        },
+        "sync_pause_max_latency": {
+            "type": 1,
+            "metric_type": "gauge",
+            "value_type": "real",
+            "description": "Max latency of op_wq pause before syncfs",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "finisher-JournalObjectStore": {
+        "queue_len": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "",
+            "nick": "",
+            "priority": 0
+        },
+        "complete_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "finisher-filestore-apply-0": {
+        "queue_len": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "",
+            "nick": "",
+            "priority": 0
+        },
+        "complete_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "finisher-filestore-ondisk-0": {
+        "queue_len": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "",
+            "nick": "",
+            "priority": 0
+        },
+        "complete_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "mutex-FileJournal::completions_lock": {
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average time of mutex in locked state",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "mutex-FileJournal::finisher_lock": {
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average time of mutex in locked state",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "mutex-FileJournal::write_lock": {
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average time of mutex in locked state",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "mutex-FileJournal::writeq_lock": {
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average time of mutex in locked state",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "mutex-JOS::ApplyManager::apply_lock": {
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average time of mutex in locked state",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "mutex-JOS::ApplyManager::com_lock": {
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average time of mutex in locked state",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "mutex-JOS::SubmitManager::lock": {
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average time of mutex in locked state",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "mutex-OSD:ShardedOpWQ:.0": {
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average time of mutex in locked state",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "mutex-OSD:ShardedOpWQ:.1": {
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average time of mutex in locked state",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "mutex-OSD:ShardedOpWQ:.2": {
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average time of mutex in locked state",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "mutex-OSD:ShardedOpWQ:.3": {
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average time of mutex in locked state",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "mutex-OSD:ShardedOpWQ:.4": {
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average time of mutex in locked state",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "mutex-OSD:ShardedOpWQ:order:.0": {
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average time of mutex in locked state",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "mutex-OSD:ShardedOpWQ:order:.1": {
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average time of mutex in locked state",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "mutex-OSD:ShardedOpWQ:order:.2": {
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average time of mutex in locked state",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "mutex-OSD:ShardedOpWQ:order:.3": {
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average time of mutex in locked state",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "mutex-OSD:ShardedOpWQ:order:.4": {
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average time of mutex in locked state",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "mutex-WBThrottle::lock": {
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Average time of mutex in locked state",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "objecter": {
+        "op_active": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Operations active",
+            "nick": "actv",
+            "priority": 7
+        },
+        "op_laggy": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Laggy operations",
+            "nick": "",
+            "priority": 0
+        },
+        "op_send": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Sent operations",
+            "nick": "",
+            "priority": 0
+        },
+        "op_send_bytes": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Sent data",
+            "nick": "",
+            "priority": 0
+        },
+        "op_resend": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Resent operations",
+            "nick": "",
+            "priority": 0
+        },
+        "op_reply": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Operation reply",
+            "nick": "",
+            "priority": 0
+        },
+        "op": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Operations",
+            "nick": "",
+            "priority": 0
+        },
+        "op_r": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Read operations",
+            "nick": "rd",
+            "priority": 7
+        },
+        "op_w": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Write operations",
+            "nick": "wr",
+            "priority": 7
+        },
+        "op_rmw": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Read-modify-write operations",
+            "nick": "rdwr",
+            "priority": 5
+        },
+        "op_pg": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "PG operation",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_stat": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Stat operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_create": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Create object operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_read": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Read operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_write": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Write operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_writefull": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Write full object operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_writesame": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Write same operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_append": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Append operation",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_zero": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Set object to zero operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_truncate": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Truncate object operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_delete": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Delete object operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_mapext": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Map extent operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_sparse_read": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Sparse read operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_clonerange": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Clone range operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_getxattr": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Get xattr operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_setxattr": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Set xattr operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_cmpxattr": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Xattr comparison operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_rmxattr": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Remove xattr operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_resetxattrs": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Reset xattr operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_tmap_up": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "TMAP update operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_tmap_put": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "TMAP put operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_tmap_get": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "TMAP get operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_call": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Call (execute) operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_watch": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Watch by object operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_notify": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Notify about object operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_src_cmpxattr": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Extended attribute comparison in multi operations",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_pgls": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_pgls_filter": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "",
+            "nick": "",
+            "priority": 0
+        },
+        "osdop_other": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Other operations",
+            "nick": "",
+            "priority": 0
+        },
+        "linger_active": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Active lingering operations",
+            "nick": "",
+            "priority": 0
+        },
+        "linger_send": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Sent lingering operations",
+            "nick": "",
+            "priority": 0
+        },
+        "linger_resend": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Resent lingering operations",
+            "nick": "",
+            "priority": 0
+        },
+        "linger_ping": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Sent pings to lingering operations",
+            "nick": "",
+            "priority": 0
+        },
+        "poolop_active": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Active pool operations",
+            "nick": "",
+            "priority": 0
+        },
+        "poolop_send": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Sent pool operations",
+            "nick": "",
+            "priority": 0
+        },
+        "poolop_resend": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Resent pool operations",
+            "nick": "",
+            "priority": 0
+        },
+        "poolstat_active": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Active get pool stat operations",
+            "nick": "",
+            "priority": 0
+        },
+        "poolstat_send": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Pool stat operations sent",
+            "nick": "",
+            "priority": 0
+        },
+        "poolstat_resend": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Resent pool stats",
+            "nick": "",
+            "priority": 0
+        },
+        "statfs_active": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Statfs operations",
+            "nick": "",
+            "priority": 0
+        },
+        "statfs_send": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Sent FS stats",
+            "nick": "",
+            "priority": 0
+        },
+        "statfs_resend": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Resent FS stats",
+            "nick": "",
+            "priority": 0
+        },
+        "command_active": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Active commands",
+            "nick": "",
+            "priority": 0
+        },
+        "command_send": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Sent commands",
+            "nick": "",
+            "priority": 0
+        },
+        "command_resend": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Resent commands",
+            "nick": "",
+            "priority": 0
+        },
+        "map_epoch": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "OSD map epoch",
+            "nick": "",
+            "priority": 0
+        },
+        "map_full": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Full OSD maps received",
+            "nick": "",
+            "priority": 0
+        },
+        "map_inc": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Incremental OSD maps received",
+            "nick": "",
+            "priority": 0
+        },
+        "osd_sessions": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Open sessions",
+            "nick": "",
+            "priority": 0
+        },
+        "osd_session_open": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Sessions opened",
+            "nick": "",
+            "priority": 0
+        },
+        "osd_session_close": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Sessions closed",
+            "nick": "",
+            "priority": 0
+        },
+        "osd_laggy": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Laggy OSD sessions",
+            "nick": "",
+            "priority": 0
+        },
+        "omap_wr": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "OSD OMAP write operations",
+            "nick": "",
+            "priority": 0
+        },
+        "omap_rd": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "OSD OMAP read operations",
+            "nick": "",
+            "priority": 0
+        },
+        "omap_del": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "OSD OMAP delete operations",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "osd": {
+        "op_wip": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Replication operations currently being processed (primary)",
+            "nick": "",
+            "priority": 5
+        },
+        "op": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Client operations",
+            "nick": "ops",
+            "priority": 10
+        },
+        "op_in_bytes": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Client operations total write size",
+            "nick": "wr",
+            "priority": 8
+        },
+        "op_out_bytes": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Client operations total read size",
+            "nick": "rd",
+            "priority": 8
+        },
+        "op_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Latency of client operations (including queue time)",
+            "nick": "l",
+            "priority": 9
+        },
+        "op_process_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Latency of client operations (excluding queue time)",
+            "nick": "",
+            "priority": 5
+        },
+        "op_prepare_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Latency of client operations (excluding queue time and wait for finished)",
+            "nick": "",
+            "priority": 5
+        },
+        "op_r": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Client read operations",
+            "nick": "",
+            "priority": 5
+        },
+        "op_r_out_bytes": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Client data read",
+            "nick": "",
+            "priority": 5
+        },
+        "op_r_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Latency of read operation (including queue time)",
+            "nick": "",
+            "priority": 5
+        },
+        "op_r_process_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Latency of read operation (excluding queue time)",
+            "nick": "",
+            "priority": 5
+        },
+        "op_r_prepare_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Latency of read operations (excluding queue time and wait for finished)",
+            "nick": "",
+            "priority": 5
+        },
+        "op_w": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Client write operations",
+            "nick": "",
+            "priority": 5
+        },
+        "op_w_in_bytes": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Client data written",
+            "nick": "",
+            "priority": 5
+        },
+        "op_w_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Latency of write operation (including queue time)",
+            "nick": "",
+            "priority": 5
+        },
+        "op_w_process_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Latency of write operation (excluding queue time)",
+            "nick": "",
+            "priority": 5
+        },
+        "op_w_prepare_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Latency of write operations (excluding queue time and wait for finished)",
+            "nick": "",
+            "priority": 5
+        },
+        "op_rw": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Client read-modify-write operations",
+            "nick": "",
+            "priority": 5
+        },
+        "op_rw_in_bytes": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Client read-modify-write operations write in",
+            "nick": "",
+            "priority": 5
+        },
+        "op_rw_out_bytes": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Client read-modify-write operations read out ",
+            "nick": "",
+            "priority": 5
+        },
+        "op_rw_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Latency of read-modify-write operation (including queue time)",
+            "nick": "",
+            "priority": 5
+        },
+        "op_rw_process_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Latency of read-modify-write operation (excluding queue time)",
+            "nick": "",
+            "priority": 5
+        },
+        "op_rw_prepare_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Latency of read-modify-write operations (excluding queue time and wait for finished)",
+            "nick": "",
+            "priority": 5
+        },
+        "op_before_queue_op_lat": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Latency of IO before calling queue(before really queue into ShardedOpWq)",
+            "nick": "",
+            "priority": 0
+        },
+        "op_before_dequeue_op_lat": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Latency of IO before calling dequeue_op(already dequeued and get PG lock)",
+            "nick": "",
+            "priority": 0
+        },
+        "subop": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Suboperations",
+            "nick": "",
+            "priority": 0
+        },
+        "subop_in_bytes": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Suboperations total size",
+            "nick": "",
+            "priority": 0
+        },
+        "subop_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Suboperations latency",
+            "nick": "",
+            "priority": 0
+        },
+        "subop_w": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Replicated writes",
+            "nick": "",
+            "priority": 0
+        },
+        "subop_w_in_bytes": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Replicated written data size",
+            "nick": "",
+            "priority": 0
+        },
+        "subop_w_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Replicated writes latency",
+            "nick": "",
+            "priority": 0
+        },
+        "subop_pull": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Suboperations pull requests",
+            "nick": "",
+            "priority": 0
+        },
+        "subop_pull_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Suboperations pull latency",
+            "nick": "",
+            "priority": 0
+        },
+        "subop_push": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Suboperations push messages",
+            "nick": "",
+            "priority": 0
+        },
+        "subop_push_in_bytes": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Suboperations pushed size",
+            "nick": "",
+            "priority": 0
+        },
+        "subop_push_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Suboperations push latency",
+            "nick": "",
+            "priority": 0
+        },
+        "pull": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Pull requests sent",
+            "nick": "",
+            "priority": 0
+        },
+        "push": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Push messages sent",
+            "nick": "",
+            "priority": 0
+        },
+        "push_out_bytes": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Pushed size",
+            "nick": "",
+            "priority": 0
+        },
+        "recovery_ops": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Started recovery operations",
+            "nick": "rop",
+            "priority": 8
+        },
+        "loadavg": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "CPU load",
+            "nick": "",
+            "priority": 0
+        },
+        "buffer_bytes": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Total allocated buffer size",
+            "nick": "",
+            "priority": 0
+        },
+        "history_alloc_Mbytes": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "",
+            "nick": "",
+            "priority": 0
+        },
+        "history_alloc_num": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "",
+            "nick": "",
+            "priority": 0
+        },
+        "cached_crc": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Total number getting crc from crc_cache",
+            "nick": "",
+            "priority": 0
+        },
+        "cached_crc_adjusted": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Total number getting crc from crc_cache with adjusting",
+            "nick": "",
+            "priority": 0
+        },
+        "missed_crc": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Total number of crc cache misses",
+            "nick": "",
+            "priority": 0
+        },
+        "numpg": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Placement groups",
+            "nick": "pgs",
+            "priority": 5
+        },
+        "numpg_primary": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Placement groups for which this osd is primary",
+            "nick": "",
+            "priority": 0
+        },
+        "numpg_replica": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Placement groups for which this osd is replica",
+            "nick": "",
+            "priority": 0
+        },
+        "numpg_stray": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Placement groups ready to be deleted from this osd",
+            "nick": "",
+            "priority": 0
+        },
+        "heartbeat_to_peers": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Heartbeat (ping) peers we send to",
+            "nick": "",
+            "priority": 0
+        },
+        "map_messages": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "OSD map messages",
+            "nick": "",
+            "priority": 0
+        },
+        "map_message_epochs": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "OSD map epochs",
+            "nick": "",
+            "priority": 0
+        },
+        "map_message_epoch_dups": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "OSD map duplicates",
+            "nick": "",
+            "priority": 0
+        },
+        "messages_delayed_for_map": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Operations waiting for OSD map",
+            "nick": "",
+            "priority": 0
+        },
+        "osd_map_cache_hit": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "osdmap cache hit",
+            "nick": "",
+            "priority": 0
+        },
+        "osd_map_cache_miss": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "osdmap cache miss",
+            "nick": "",
+            "priority": 0
+        },
+        "osd_map_cache_miss_low": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "osdmap cache miss below cache lower bound",
+            "nick": "",
+            "priority": 0
+        },
+        "osd_map_cache_miss_low_avg": {
+            "type": 6,
+            "metric_type": "gauge",
+            "value_type": "integer-integer-pair",
+            "description": "osdmap cache miss, avg distance below cache lower bound",
+            "nick": "",
+            "priority": 0
+        },
+        "osd_map_bl_cache_hit": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "OSDMap buffer cache hits",
+            "nick": "",
+            "priority": 0
+        },
+        "osd_map_bl_cache_miss": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "OSDMap buffer cache misses",
+            "nick": "",
+            "priority": 0
+        },
+        "stat_bytes": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "OSD size",
+            "nick": "size",
+            "priority": 5
+        },
+        "stat_bytes_used": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Used space",
+            "nick": "used",
+            "priority": 5
+        },
+        "stat_bytes_avail": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Available space",
+            "nick": "",
+            "priority": 0
+        },
+        "copyfrom": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Rados \"copy-from\" operations",
+            "nick": "",
+            "priority": 0
+        },
+        "tier_promote": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Tier promotions",
+            "nick": "",
+            "priority": 0
+        },
+        "tier_flush": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Tier flushes",
+            "nick": "",
+            "priority": 0
+        },
+        "tier_flush_fail": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Failed tier flushes",
+            "nick": "",
+            "priority": 0
+        },
+        "tier_try_flush": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Tier flush attempts",
+            "nick": "",
+            "priority": 0
+        },
+        "tier_try_flush_fail": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Failed tier flush attempts",
+            "nick": "",
+            "priority": 0
+        },
+        "tier_evict": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Tier evictions",
+            "nick": "",
+            "priority": 0
+        },
+        "tier_whiteout": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Tier whiteouts",
+            "nick": "",
+            "priority": 0
+        },
+        "tier_dirty": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Dirty tier flag set",
+            "nick": "",
+            "priority": 0
+        },
+        "tier_clean": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Dirty tier flag cleaned",
+            "nick": "",
+            "priority": 0
+        },
+        "tier_delay": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Tier delays (agent waiting)",
+            "nick": "",
+            "priority": 0
+        },
+        "tier_proxy_read": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Tier proxy reads",
+            "nick": "",
+            "priority": 0
+        },
+        "tier_proxy_write": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Tier proxy writes",
+            "nick": "",
+            "priority": 0
+        },
+        "agent_wake": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Tiering agent wake up",
+            "nick": "",
+            "priority": 0
+        },
+        "agent_skip": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Objects skipped by agent",
+            "nick": "",
+            "priority": 0
+        },
+        "agent_flush": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Tiering agent flushes",
+            "nick": "",
+            "priority": 0
+        },
+        "agent_evict": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Tiering agent evictions",
+            "nick": "",
+            "priority": 0
+        },
+        "object_ctx_cache_hit": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Object context cache hits",
+            "nick": "",
+            "priority": 0
+        },
+        "object_ctx_cache_total": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Object context cache lookups",
+            "nick": "",
+            "priority": 0
+        },
+        "op_cache_hit": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "",
+            "nick": "",
+            "priority": 0
+        },
+        "osd_tier_flush_lat": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Object flush latency",
+            "nick": "",
+            "priority": 0
+        },
+        "osd_tier_promote_lat": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Object promote latency",
+            "nick": "",
+            "priority": 0
+        },
+        "osd_tier_r_lat": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Object proxy read latency",
+            "nick": "",
+            "priority": 0
+        },
+        "osd_pg_info": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "PG updated its info (using any method)",
+            "nick": "",
+            "priority": 0
+        },
+        "osd_pg_fastinfo": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "PG updated its info using fastinfo attr",
+            "nick": "",
+            "priority": 0
+        },
+        "osd_pg_biginfo": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "PG updated its biginfo attr",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "recoverystate_perf": {
+        "initial_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Initial recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "started_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Started recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "reset_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Reset recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "start_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Start recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "primary_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Primary recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "peering_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Peering recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "backfilling_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Backfilling recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "waitremotebackfillreserved_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Wait remote backfill reserved recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "waitlocalbackfillreserved_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Wait local backfill reserved recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "notbackfilling_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Notbackfilling recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "repnotrecovering_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Repnotrecovering recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "repwaitrecoveryreserved_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Rep wait recovery reserved recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "repwaitbackfillreserved_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Rep wait backfill reserved recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "reprecovering_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "RepRecovering recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "activating_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Activating recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "waitlocalrecoveryreserved_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Wait local recovery reserved recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "waitremoterecoveryreserved_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Wait remote recovery reserved recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "recovering_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Recovering recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "recovered_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Recovered recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "clean_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Clean recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "active_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Active recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "replicaactive_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Replicaactive recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "stray_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Stray recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "getinfo_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Getinfo recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "getlog_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Getlog recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "waitactingchange_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Waitactingchange recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "incomplete_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Incomplete recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "down_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Down recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "getmissing_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Getmissing recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "waitupthru_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Waitupthru recovery state latency",
+            "nick": "",
+            "priority": 0
+        },
+        "notrecovering_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Notrecovering recovery state latency",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "rocksdb": {
+        "get": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Gets",
+            "nick": "",
+            "priority": 0
+        },
+        "submit_transaction": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Submit transactions",
+            "nick": "",
+            "priority": 0
+        },
+        "submit_transaction_sync": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Submit transactions sync",
+            "nick": "",
+            "priority": 0
+        },
+        "get_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Get latency",
+            "nick": "",
+            "priority": 0
+        },
+        "submit_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Submit Latency",
+            "nick": "",
+            "priority": 0
+        },
+        "submit_sync_latency": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Submit Sync Latency",
+            "nick": "",
+            "priority": 0
+        },
+        "compact": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Compactions",
+            "nick": "",
+            "priority": 0
+        },
+        "compact_range": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Compactions by range",
+            "nick": "",
+            "priority": 0
+        },
+        "compact_queue_merge": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Mergings of ranges in compaction queue",
+            "nick": "",
+            "priority": 0
+        },
+        "compact_queue_len": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Length of compaction queue",
+            "nick": "",
+            "priority": 0
+        },
+        "rocksdb_write_wal_time": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Rocksdb write wal time",
+            "nick": "",
+            "priority": 0
+        },
+        "rocksdb_write_memtable_time": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Rocksdb write memtable time",
+            "nick": "",
+            "priority": 0
+        },
+        "rocksdb_write_delay_time": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Rocksdb write delay time",
+            "nick": "",
+            "priority": 0
+        },
+        "rocksdb_write_pre_and_post_time": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "total time spent on writing a record, excluding write process",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "throttle-filestore_bytes": {
+        "val": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Currently available throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "max": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Max value for throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "get": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Gets",
+            "nick": "",
+            "priority": 0
+        },
+        "get_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Got data",
+            "nick": "",
+            "priority": 0
+        },
+        "take": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Takes",
+            "nick": "",
+            "priority": 0
+        },
+        "take_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Taken data",
+            "nick": "",
+            "priority": 0
+        },
+        "put": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Puts",
+            "nick": "",
+            "priority": 0
+        },
+        "put_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Put data",
+            "nick": "",
+            "priority": 0
+        },
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Waiting latency",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "throttle-filestore_journal": {
+        "val": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Currently available throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "max": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Max value for throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "get": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Gets",
+            "nick": "",
+            "priority": 0
+        },
+        "get_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Got data",
+            "nick": "",
+            "priority": 0
+        },
+        "take": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Takes",
+            "nick": "",
+            "priority": 0
+        },
+        "take_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Taken data",
+            "nick": "",
+            "priority": 0
+        },
+        "put": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Puts",
+            "nick": "",
+            "priority": 0
+        },
+        "put_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Put data",
+            "nick": "",
+            "priority": 0
+        },
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Waiting latency",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "throttle-filestore_ops": {
+        "val": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Currently available throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "max": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Max value for throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "get": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Gets",
+            "nick": "",
+            "priority": 0
+        },
+        "get_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Got data",
+            "nick": "",
+            "priority": 0
+        },
+        "take": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Takes",
+            "nick": "",
+            "priority": 0
+        },
+        "take_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Taken data",
+            "nick": "",
+            "priority": 0
+        },
+        "put": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Puts",
+            "nick": "",
+            "priority": 0
+        },
+        "put_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Put data",
+            "nick": "",
+            "priority": 0
+        },
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Waiting latency",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "throttle-msgr_dispatch_throttler-client": {
+        "val": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Currently available throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "max": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Max value for throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "get_started": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Number of get calls, increased before wait",
+            "nick": "",
+            "priority": 0
+        },
+        "get": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Gets",
+            "nick": "",
+            "priority": 0
+        },
+        "get_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Got data",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_fail": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Get blocked during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_success": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Successful get during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "take": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Takes",
+            "nick": "",
+            "priority": 0
+        },
+        "take_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Taken data",
+            "nick": "",
+            "priority": 0
+        },
+        "put": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Puts",
+            "nick": "",
+            "priority": 0
+        },
+        "put_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Put data",
+            "nick": "",
+            "priority": 0
+        },
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Waiting latency",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "throttle-msgr_dispatch_throttler-cluster": {
+        "val": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Currently available throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "max": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Max value for throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "get_started": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Number of get calls, increased before wait",
+            "nick": "",
+            "priority": 0
+        },
+        "get": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Gets",
+            "nick": "",
+            "priority": 0
+        },
+        "get_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Got data",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_fail": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Get blocked during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_success": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Successful get during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "take": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Takes",
+            "nick": "",
+            "priority": 0
+        },
+        "take_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Taken data",
+            "nick": "",
+            "priority": 0
+        },
+        "put": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Puts",
+            "nick": "",
+            "priority": 0
+        },
+        "put_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Put data",
+            "nick": "",
+            "priority": 0
+        },
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Waiting latency",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "throttle-msgr_dispatch_throttler-hb_back_client": {
+        "val": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Currently available throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "max": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Max value for throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "get_started": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Number of get calls, increased before wait",
+            "nick": "",
+            "priority": 0
+        },
+        "get": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Gets",
+            "nick": "",
+            "priority": 0
+        },
+        "get_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Got data",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_fail": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Get blocked during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_success": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Successful get during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "take": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Takes",
+            "nick": "",
+            "priority": 0
+        },
+        "take_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Taken data",
+            "nick": "",
+            "priority": 0
+        },
+        "put": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Puts",
+            "nick": "",
+            "priority": 0
+        },
+        "put_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Put data",
+            "nick": "",
+            "priority": 0
+        },
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Waiting latency",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "throttle-msgr_dispatch_throttler-hb_back_server": {
+        "val": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Currently available throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "max": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Max value for throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "get_started": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Number of get calls, increased before wait",
+            "nick": "",
+            "priority": 0
+        },
+        "get": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Gets",
+            "nick": "",
+            "priority": 0
+        },
+        "get_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Got data",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_fail": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Get blocked during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_success": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Successful get during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "take": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Takes",
+            "nick": "",
+            "priority": 0
+        },
+        "take_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Taken data",
+            "nick": "",
+            "priority": 0
+        },
+        "put": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Puts",
+            "nick": "",
+            "priority": 0
+        },
+        "put_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Put data",
+            "nick": "",
+            "priority": 0
+        },
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Waiting latency",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "throttle-msgr_dispatch_throttler-hb_front_client": {
+        "val": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Currently available throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "max": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Max value for throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "get_started": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Number of get calls, increased before wait",
+            "nick": "",
+            "priority": 0
+        },
+        "get": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Gets",
+            "nick": "",
+            "priority": 0
+        },
+        "get_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Got data",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_fail": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Get blocked during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_success": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Successful get during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "take": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Takes",
+            "nick": "",
+            "priority": 0
+        },
+        "take_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Taken data",
+            "nick": "",
+            "priority": 0
+        },
+        "put": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Puts",
+            "nick": "",
+            "priority": 0
+        },
+        "put_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Put data",
+            "nick": "",
+            "priority": 0
+        },
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Waiting latency",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "throttle-msgr_dispatch_throttler-hb_front_server": {
+        "val": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Currently available throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "max": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Max value for throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "get_started": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Number of get calls, increased before wait",
+            "nick": "",
+            "priority": 0
+        },
+        "get": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Gets",
+            "nick": "",
+            "priority": 0
+        },
+        "get_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Got data",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_fail": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Get blocked during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_success": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Successful get during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "take": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Takes",
+            "nick": "",
+            "priority": 0
+        },
+        "take_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Taken data",
+            "nick": "",
+            "priority": 0
+        },
+        "put": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Puts",
+            "nick": "",
+            "priority": 0
+        },
+        "put_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Put data",
+            "nick": "",
+            "priority": 0
+        },
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Waiting latency",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "throttle-msgr_dispatch_throttler-ms_objecter": {
+        "val": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Currently available throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "max": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Max value for throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "get_started": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Number of get calls, increased before wait",
+            "nick": "",
+            "priority": 0
+        },
+        "get": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Gets",
+            "nick": "",
+            "priority": 0
+        },
+        "get_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Got data",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_fail": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Get blocked during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_success": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Successful get during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "take": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Takes",
+            "nick": "",
+            "priority": 0
+        },
+        "take_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Taken data",
+            "nick": "",
+            "priority": 0
+        },
+        "put": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Puts",
+            "nick": "",
+            "priority": 0
+        },
+        "put_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Put data",
+            "nick": "",
+            "priority": 0
+        },
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Waiting latency",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "throttle-objecter_bytes": {
+        "val": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Currently available throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "max": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Max value for throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "get_started": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Number of get calls, increased before wait",
+            "nick": "",
+            "priority": 0
+        },
+        "get": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Gets",
+            "nick": "",
+            "priority": 0
+        },
+        "get_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Got data",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_fail": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Get blocked during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_success": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Successful get during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "take": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Takes",
+            "nick": "",
+            "priority": 0
+        },
+        "take_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Taken data",
+            "nick": "",
+            "priority": 0
+        },
+        "put": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Puts",
+            "nick": "",
+            "priority": 0
+        },
+        "put_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Put data",
+            "nick": "",
+            "priority": 0
+        },
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Waiting latency",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "throttle-objecter_ops": {
+        "val": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Currently available throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "max": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Max value for throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "get_started": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Number of get calls, increased before wait",
+            "nick": "",
+            "priority": 0
+        },
+        "get": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Gets",
+            "nick": "",
+            "priority": 0
+        },
+        "get_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Got data",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_fail": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Get blocked during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_success": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Successful get during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "take": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Takes",
+            "nick": "",
+            "priority": 0
+        },
+        "take_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Taken data",
+            "nick": "",
+            "priority": 0
+        },
+        "put": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Puts",
+            "nick": "",
+            "priority": 0
+        },
+        "put_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Put data",
+            "nick": "",
+            "priority": 0
+        },
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Waiting latency",
+            "nick": "",
+            "priority": 0
+        }
+    },
+    "throttle-osd_client_bytes": {
+        "val": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Currently available throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "max": {
+            "type": 2,
+            "metric_type": "gauge",
+            "value_type": "integer",
+            "description": "Max value for throttle",
+            "nick": "",
+            "priority": 0
+        },
+        "get_started": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Number of get calls, increased before wait",
+            "nick": "",
+            "priority": 0
+        },
+        "get": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Gets",
+            "nick": "",
+            "priority": 0
+        },
+        "get_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Got data",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_fail": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Get blocked during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "get_or_fail_success": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Successful get during get_or_fail",
+            "nick": "",
+            "priority": 0
+        },
+        "take": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Takes",
+            "nick": "",
+            "priority": 0
+        },
+        "take_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Taken data",
+            "nick": "",
+            "priority": 0
+        },
+        "put": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Puts",
+            "nick": "",
+            "priority": 0
+        },
+        "put_sum": {
+            "type": 10,
+            "metric_type": "counter",
+            "value_type": "integer",
+            "description": "Put data",
+            "nick": "",
+            "priority": 0
+        },
+        "wait": {
+            "type": 5,
+            "metric_type": "gauge",
+            "value_type": "real-integer-pair",
+            "description": "Waiting latency",
+            "nick": "",
+            "priority": 0
+        }
+    }
+}

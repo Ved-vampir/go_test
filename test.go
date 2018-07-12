@@ -92,7 +92,9 @@ func filterMap(dump string, filters []string) (taggedMetricMap, error) {
 	fmap := make(taggedMetricMap)
 	for tag, metrics := range data {
 		for _, filter := range filters {
-			fmap[tag][filter] = metrics[filter]
+			if val, ok := metrics[filter]; ok {
+				fmap[tag][filter] = val
+			}
 		}
 	}
 
