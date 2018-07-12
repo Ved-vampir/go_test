@@ -6,9 +6,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	"os/exec"
-	"path/filepath"
-	"strings"
 	"bufio"
   	"log"
   	"os"
@@ -94,8 +91,8 @@ func filterMap(dump string, filters []string) (taggedMetricMap, error) {
 	
 	fmap := make(taggedMetricMap)
 	for tag, metrics := range data {
-		for filter := range filters {
-			fmap[tag][filter] := metrics[filter]
+		for _, filter := range filters {
+			fmap[tag][filter] = metrics[filter]
 		}
 	}
 
